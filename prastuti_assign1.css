@@ -1,0 +1,27 @@
+.m1{
+  background-color: lightsalmon;
+  color: black;
+  font-size: larger;
+  text-align: center;
+}
+
+.m4{
+  background-color: springgreen;
+  color: black;
+  font-size: large;
+  text-align: center;
+}
+
+body{
+  background-color: cadetblue;
+}
+.grid {
+  margin-left: 400px;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-gap: 1rem;
+}
+.grid > div {
+  background: black;
+  padding: 1rem;
+}
